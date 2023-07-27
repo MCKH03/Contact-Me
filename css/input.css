@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Poppins";
+    font-weight: 400;
+    src: local("Poppins"),
+      url("/assets/fonts/poppins-regular-webfont.woff2") format("woff2"),
+      url("/assets/fonts/poppins-regular-webfont.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    font-weight: 500;
+    src: local("Poppins"),
+      url("/assets/fonts/poppins-medium-webfont.woff2") format("woff2"),
+      url("/assets/fonts/poppins-medium-webfont.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Poppins";
+    font-weight: 600;
+    src: local("Poppins"),
+      url("/assets/fonts/poppins-bold-webfont.woff2") format("woff2"),
+      url("/assets/fonts/poppins-bold-webfont.woff") format("woff");
+  }
+}
